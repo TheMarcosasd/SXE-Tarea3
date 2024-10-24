@@ -10,13 +10,13 @@ Utiliza la imagen de Apache, tag 2.4 y apoyandote en la mini guía de docker sig
    1 Descarga la imagen 'httpd' y comprueba que está en tu equipo. <br>
    2 Crea un contenedor con el nombre 'dam_web1'. <br>
    3 Si quieres poder acceder desde el navegador de tu equipo, ¿que debes hacer? <br>
-   4 Utiliza bind mount para que el directorio del apache2 'htdocs' esté montado un directorio que tu elijas. <br>
-   5 Realiza un 'hola mundo' en html y comprueba que accedes desde el navegador. <br>
-   6 Crea otro contenedor 'dam_web2' con el mismo bind mount y a otro puerto, por ejemplo 9080. <br>
-   7 Comprueba que los dos servidores 'sirven' la misma página, es decir, cuando consultamos en el navegador: <br>
+   -> Utiliza bind mount para que el directorio del apache2 'htdocs' esté montado un directorio que tu elijas. <br>
+   4 Realiza un 'hola mundo' en html y comprueba que accedes desde el navegador. <br>
+   5 Crea otro contenedor 'dam_web2' con el mismo bind mount y a otro puerto, por ejemplo 9080. <br>
+   6 Comprueba que los dos servidores 'sirven' la misma página, es decir, cuando consultamos en el navegador: <br>
        http://localhost:9080  <br>
        http://localhost:8000  <br>
-   8 Realiza modificaciones de la página y comprueba que los dos servidores 'sirven' la misma página
+   7 Realiza modificaciones de la página y comprueba que los dos servidores 'sirven' la misma página
    
 Lo primero seria descargar la imagen, para descargarla visitamos docker hub y buscamos httpd.
    
