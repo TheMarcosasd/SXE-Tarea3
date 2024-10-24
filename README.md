@@ -30,4 +30,6 @@ Creamos un contenedor y le damos imagen. Ademas confirmamos que se haya creado.
 
 ![Screenshot_20241021_143852](https://github.com/user-attachments/assets/60f45bf6-1476-414d-be26-c65c07d8f9ab)
 
-   
+   Iniciamos el contenedor le damos puertos y confirmamos que funcione
+![Screenshot_20241024_143513](https://github.com/user-attachments/assets/cff700c5-ceb1-41d4-9a28-f69667e4dc6d)
+![Screenshot_20241024_143444](https://github.com/user-attachments/assets/f87fd0fa-cffd-46f3-947a-61a8c89c0e24)
